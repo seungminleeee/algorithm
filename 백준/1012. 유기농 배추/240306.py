@@ -1,5 +1,8 @@
 import sys; sys.stdin = open('input.txt')
 
+import sys
+sys.setrecursionlimit(10**6)
+
 dr = [1, 0, -1, 0]
 dc = [0, 1, 0, -1]
 Max = 60
